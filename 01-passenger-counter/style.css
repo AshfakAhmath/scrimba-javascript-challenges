@@ -1,0 +1,26 @@
+body{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-image: url(image.png);
+    background-size: cover;
+}
+h2{
+    font-size: 50px;
+}
+button{
+    padding: 10px 20px;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#increment-btn{
+    background-color: maroon;
+}
+#save-btn{
+    background-color: darkgreen;
+}
