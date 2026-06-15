@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard</title>
+    <link rel="icon" type="image/png" href="image.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>BASKETBALL</p>
+    <h1>SCOREBOARD</h1>
+    <div class="line">
+        <hr id="hr1"><hr id="hr2">
+    </div>
+    
+
+    <div class="container">
+        <div class="card" id="card1">
+            <p>HOME</p>
+            <h1 id="home-el">00</h1>
+            <div class="buttons">
+            <button onclick="H1btn()">+1</button>
+            <button onclick="H2btn()">+2</button>
+            <button onclick="H3btn()">+3</button>
+            </div>
+        </div>
+        <div class="card" id="card2">
+            <p>GUEST</p>
+            <h1 id="guest-el">00</h1>
+            <div class="buttons">
+            <button onclick="G1btn()">+1</button>
+            <button onclick="G2btn()">+2</button>
+            <button onclick="G3btn()">+3</button>
+            </div>
+        </div>
+    </div>
+    <button id="newGame" onclick="newGame()">NEW GAME</button>
+    <script src="script.js"></script>
+</body>
+</html>

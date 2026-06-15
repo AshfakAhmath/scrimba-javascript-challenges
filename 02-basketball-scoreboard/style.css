@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Rajdhani:wght@500;600;700&display=swap');
+
+
+body{
+    background-color: #0f172a;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+body h1{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+body p{
+    margin-bottom: 5px;
+}
+hr{
+    width: 50px;
+}
+.line{
+    display: flex;
+    max-width: 150px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.line #hr1{
+    border: #f97316 solid 1px;
+}
+.line #hr2{
+    border: #06b6d4 solid 1px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.card{
+    max-width: 300px;
+    height: 200px;
+    border: 1px solid hsl(230, 53%, 25%);
+    background-color: #19225183;
+    padding: 20px 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 3px 3px 15px hsl(230, 53%, 25%);
+}
+button{
+    padding: 8px 10px;
+    width: 40px;
+    margin: 1px;
+    border-radius: 5px;
+    background-color: #192251;
+    border: white solid 1px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 9px;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    width: 150px;
+    margin: auto;
+    justify-content: space-between;
+}
+#newGame{
+    width: auto;
+    margin: auto;
+    margin-top: 30px;
+    border: hsl(230, 53%, 25%) solid 1px;
+    font-size: 0.8rem;
+}
+#newGame:hover{
+    background-color: hsl(230, 53%, 30%);
+}
+#card1 p{
+ color: #f97316;
+}
+#card2 p{
+ color: #06b6d4;
+}
+#card1 button{
+ border: #f97316 solid 1px;
+}
+#card1 h1{
+ color: #f97316;
+ font-size: 3rem;
+ text-shadow: 2px 2px 30px #f97316;
+}
+#card2 h1{
+ color: #06b6d4;
+ font-size: 3rem;
+ text-shadow: 2px 2px 30px #06b6d4;
+}
+#card2 button{
+ border: #06b6d4 solid 1px;
+}
+#card1 button:hover{
+box-shadow: 2px 2px 15px #f97316;
+}
+#card2 button:hover{
+box-shadow: 2px 2px 15px #06b6d4;
+}
+.line p{
+    font-size: 3rem;
+}
