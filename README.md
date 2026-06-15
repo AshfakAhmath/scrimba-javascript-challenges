@@ -8,8 +8,8 @@ This repository serves as a centralized "Mega Repo" containing a collection of i
 
 | # | Project Name | Description | Key Concepts Applied | Status |
 | :-: | :--- | :--- | :--- | :-: |
-| 01 | **[Passenger Counter](./01-passenger-counter/)** | Real-time entry logging application using click events. | `let`, Functions, `textContent` | ⚡ Done |
-| 02 | **[Blackjack Game](./02-blackjack-game/)** | A fully functional interactive card game with dynamic scoring. | Arrays, Loops, If/Else Logic | ⏳ In Progress |
+| 01 | **[Passenger Counter](./01-passenger-counter/)** | Real-time entry logging application using click events. | `let`, Functions, `textContent` | [🚀 Live Demo](https://kaleidoscopic-malasada-c04fac.netlify.app/) |
+| 04 | **[Basketball Scoreboard](./02-basketball-scoreboard/)** | Live match scoring utility with dynamic point increments. | DOM Manipulation, Event Listeners, Conditionals | [🚀 Live Demo](https://bright-licorice-e54a4a.netlify.app/) |
 | 03 | **[Password Generator](./03-password-generator/)** | A random string generator utility applying conditional parameters. | Math object, Loops, Functions | 📅 Planned |
 
 *Note: New project directories will be added sequentially as I progress through the curriculum.*
